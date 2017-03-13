@@ -1,0 +1,43 @@
+
+.container {
+	height: 5rem;
+	overflow: hidden;
+}
+
+.wrapper {
+	position: relative;
+	height: 100%;
+	overflow: hidden;
+}
+
+.slide {
+	background: #eee;
+	font-size: 100px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+
+ul {
+	display: flex;
+	justify-content: center;
+	position: absolute;
+	bottom: .2rem;
+	width: 100%;
+	li {
+		width: .2rem;
+		height: .2rem;
+		border-radius: 50%;
+		margin: auto .1rem;
+		background: #fff;
+		&.active {
+			background: #f18d35;
+		}
+	}
+}
