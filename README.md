@@ -59,7 +59,7 @@ false --> no pagination
 default: &nbsp;300
 
 transition duration
-#### interval: &nbsp; boolean
+#### interval: &nbsp; integer
 default: &nbsp; 3500
 
 0 --> not auto slide
